@@ -1,0 +1,50 @@
+Introdução ao Git e github anotações
+-git e github são diferentes
+
+NAVEGAÇÃO BÁSICA WINDOWS:
+CD- Change directory->Mudar pasta
+DIR- Diretórios da pasta que está situado  
+MKDIR- Make directory 
+DEL/RMDIR- Del-> delete/RMDIR-> remove directory
+CLS- Clear screen OU ctrl + l
+TAB- Autocompleta 
+ECHO- printa
+
+ENTENDENDO COMO O GIT FUNCIONA 
+SHA1- Encriptaçâo- Secure Hash Algorithm 
+-3 objetos básicos do GIT
+ -Blobs- Metadados do git/SHA de um arquivo 
+ -Trees- Armazenam blobs/SHA de um blob
+ -Commits- Junta tudo/ tree, parente, autor, msg, timestamp
+    -também possui um SHA1
+
+CHAVES SSH E TOKENS S
+ -Chave ssh- conexão segura e encriptadda entre duas máquinas
+
+INICIANDO NO GIT
+-Git init-> Cria um repositório dentro do diretório  
+-Git add-> Move para modified  
+-Git commit-> Integra o repositório
+-LS -a -> Mostra arquivos ocultos 
+-Git status-> Mostra os status dos arquivos 
+-MV-> Mover
+-Git clone- Clonar repositórios 
+
+CICLO DE VIDA DOS ARQUIVOS 
+-Tracked- O git tem ciência  
+-Untracked- Git não tem ciência
+   ->arquivo que acabou de ser adicionado 
+   ->arquivos diferentes da ultima versão do commit 
+-unmodified- não sofreu modificação 
+-modified- sofreu modificação 
+-staged- preparando se para fazer parte de um agrupamento 
+
+--untracked->git add-->staged
+--staged->commit-->unmodified
+--modified->git add-->staged  
+
+-Git add 'nome do arquivo'- move arquivos modificados ou untracked para stage que prepara o commit 
+-Git commit -m-> commita com mensagem 
+
+
+
