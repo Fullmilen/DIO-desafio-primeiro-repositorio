@@ -7,6 +7,20 @@
     </head>
 
     <body>
+
+        <h2>Login</h2>
+        <form>
+
+            Login: <br>
+            <input type="Text" name="Login"> <br>
+
+            Senha: <br>
+            <input type="password" name="Senha"> <br>
+
+            <input type="submit" value="Logar">
+        </form>
+
+
         <h2>Página principal</h2>
         <a href="pratica.html">
             página home
@@ -14,14 +28,54 @@
         <a href="https://www.google.com.br/">
             Google
         </a>
-        <p>
-            teste de parágrafo para a página principal
-        </p>
-        <p>
-            teste de parágrafo para a página principal
-        </p>
-        <p>
-            teste de parágrafo para a página principal
-        </p>
+
+        <h2>Tabela Teste</h2> 
+        <table border="2" width="400"> <!--definir o pixel da tabela-->
+
+            <tr><!--linha da tabela (table row)-->
+
+                <th>Código</th><!--Dados da tabela (table data)-->
+                <th>Produto</th>
+                <th>Preço</th>
+
+            </tr>
+
+            <tr>
+
+                <td>001</td>
+                <td><img src="imagens/donuts-2-1.jpg" width="50" height="50"></td>
+                <td>R$ 2.500,00</td>
+
+            </tr>
+
+            <tr>
+
+                <td>002</td>
+                <td>Tablet</td>
+                <td>R$ 999,00</td>
+
+            </tr>
+
+            <tr>
+
+                <td rowspan="2">Desconto</td> <!---Extensão da linha-->
+                <td colspan="2">Cupom1 -R$ 10</td> <!--Extensão da coluna-->
+
+            </tr>
+
+            <tr>
+
+                <td colspan="2">Cupom2 -R$ 12</td> 
+            </tr>
+
+            <tr>
+
+                <td>Total:</td>
+                <td colspan="2">R$ 3.478,98</td> 
+
+            </tr>
+
+        </table>
+
     </body>
 </html>
